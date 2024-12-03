@@ -1,0 +1,19 @@
+/* 
+# Main
+*/
+
+#main{
+    transition: all 0.3s;
+}
+
+@media (max-width:1199px){
+    #main {
+        padding: 20px;
+    }
+}
+
+td {
+    padding: 0.2em;
+}
+
+  

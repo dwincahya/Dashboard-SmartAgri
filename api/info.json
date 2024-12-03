@@ -1,0 +1,170 @@
+{
+    "cards": [
+        {
+            "_id":1,
+            "name":"Sales",
+            "icon":"bi bi-cart",
+            "amount":145,
+            "percentage":0.12,
+            "active":true
+        },
+        {
+            "_id":2,
+            "name":"Revenue",
+            "icon":"bi bi-currency-dollar",
+            "amount":3245,
+            "percentage":0.08,
+            "active":false
+        },
+        {
+            "_id":3,
+            "name":"Customers",
+            "icon":"bi bi-people",
+            "amount":1244,
+            "percentage":-0.12,
+            "active":false
+        }
+    ],
+    "topselling":[
+        {
+            "_id":1,
+            "gambar":"../src/images/img-stocks/broccoli.jpg",
+            "komoditas":"Brokoli",
+            "terjual":300
+        },
+        {
+            "_id":2,
+            "gambar":"../src/images/img-stocks/carrot.jpg",
+            "komoditas":"Brokoli",
+            "terjual":250
+        },
+        {
+            "_id":3,
+            "gambar":"../src/images/img-stocks/carrot.jpg",
+            "komoditas":"Brokoli",
+            "terjual":200
+        },
+        {
+            "_id":4,
+            "gambar":"../src/images/img-stocks/carrot.jpg",
+            "komoditas":"Brokoli",
+            "terjual":180
+        },
+        {
+            "_id":5,
+            "gambar":"../src/images/img-stocks/carrot.jpg",
+            "komoditas":"Brokoli",
+            "terjual":130
+        }
+    ],
+    "recentsales":[
+        {
+            "_id":1,
+            "kode":"#r42131",
+            "kustomer":"Tunas Kencana",
+            "komoditas":"Bawang Putih",
+            "harga":10000,
+            "jumlah":3,
+            "totalharga":null,
+            "status":"Approved"
+        },
+        {
+            "_id":2,
+            "kode":"#2531",
+            "kustomer":"Tanah Ungu",
+            "komoditas":"Bayam",
+            "harga":8000,
+            "jumlah":5,
+            "totalharga":null,
+            "status":"Pending"
+        },
+        {
+            "_id":3,
+            "kode":"#9131",
+            "kustomer":"BeansGrow",
+            "komoditas":"Kangkung",
+            "harga":6000,
+            "jumlah":6,
+            "totalharga":null,
+            "status":"Pending"
+        },
+        {
+            "_id":4,
+            "kode":"#r42131",
+            "kustomer":"LawangSayur",
+            "komoditas":"Brokoli",
+            "harga":20000,
+            "jumlah":2,
+            "totalharga":null,
+            "status":"Approved"
+        },
+        {
+            "_id":5,
+            "kode":"#r42131",
+            "kustomer":"Haji Bakulan",
+            "komoditas":"Bawang Putih",
+            "harga":12000,
+            "jumlah":7,
+            "totalharga":null,
+            "status":"Rejected"
+        }
+    ],
+    "recentactivity":[
+        {
+            "_id":1,
+            "time":"32 min",
+            "color":"text-success",
+            "content":"Totemo takai dese ka",
+            "highlight":"arigaotu gozainmasu"
+        },
+        {
+            "_id":1,
+            "time":"32 min",
+            "color":"text-success",
+            "content":"Totemo takai dese ka",
+            "highlight":"arigaotu gozainmasu"
+        },
+        {
+            "_id":1,
+            "time":"32 min",
+            "color":"text-success",
+            "content":"Totemo takai dese ka",
+            "highlight":"arigaotu gozainmasu"
+        },
+        {
+            "_id":2,
+            "time":"50 min",
+            "color":"text-danger",
+            "content":"Totemo muzukashii dese ka",
+            "highlight":""
+        },
+        {
+            "_id":3,
+            "time":"2 hours",
+            "color":"text-primary",
+            "content":"Watashi no purorurammu",
+            "highlight":""
+        },
+        {
+            "_id":4,
+            "time":"1 day",
+            "color":"text-info",
+            "content":"Totemo kirei dese ka",
+            "highlight":"Veryvweret"
+        },
+        {
+            "_id":5,
+            "time":"2 days",
+            "color":"text-warning",
+            "content":"Totemo takai deseu ka",
+            "highlight":""
+        },
+        {
+            "_id":6,
+            "time":"2 weeks",
+            "color":"text-muted",
+            "content":"Totemo takai dese ka",
+            "highlight":""
+        }
+    ]
+}
